@@ -42,7 +42,7 @@ Created a nba_db & 2 Tables in SQL (nba_salary, nba_standings).
 
 A SQL databse was used due to the relationship between (nba_team/Team) and the values in each table (total_spend/Win_Percent_18,Win_Percent_19).
 
-# Jupyter Notebook
+# Final Product
 
 Finally,  a connection was made to the local database, checked for tables and used Pandas to load the Dataframe in the Database (nba_db).
 
