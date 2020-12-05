@@ -27,11 +27,11 @@ Standing Data Transformation:
 
 Created a nba_db & 2 Tables in SQL (nba_salary, nba_standings).
 
-#nba_salary:
+# nba_salary:
 	- nba_team (TEXT)
 	- total_spend (FLOAT)
 
-#nba_standings:
+# nba_standings:
 	- Team (TEXT)
 	- Win_Percent_18 (FLOAT)
 	- Win_Percent_19 (FLOAT)
