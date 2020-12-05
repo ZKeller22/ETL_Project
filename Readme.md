@@ -11,13 +11,16 @@ https://www.basketball-reference.com/leagues/
 
 The Data was extracted from sources as a csv file & imported to jupyter notebook via Pandas.
 
-For Salary Data:
+Salary Data Transformation:
   - All Columns with Null Values were removed & only the Team Name column and 2017-18 Salary column were kept.
+  
   - 2017-18 Salary Column had to be converted to float.
+  
   - Grouped the Salary Data by Team Name & Summed the Salaries.
+  
   - Renamed the Columns.
 
-For Standings Data,
+Standing Data Transformation:
   - Brought in the Team Name, Wins, Losses & Win Percentage columns for both csv files (NBA_2017_2018.csv,NBA_2018_2019.csv)
 
   - Merged the Standings Data Frames and only kept the Win Percentage columns.
