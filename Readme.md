@@ -11,6 +11,8 @@ https://www.basketball-reference.com/leagues/
 
 The Data was extracted from sources as a csv file & imported to jupyter notebook via Pandas.
 
+# Jupyter Notebook
+
 Salary Data Transformation:
   - All Columns with Null Values were removed & only the Team Name column and 2017-18 Salary column were kept.
   
@@ -25,6 +27,8 @@ Standing Data Transformation:
 
   - Merged the Standings Data Frames and only kept the Win Percentage columns.
 
+# SQL Database
+
 Created a nba_db & 2 Tables in SQL (nba_salary, nba_standings).
 
 ## nba_salary:
@@ -37,6 +41,8 @@ Created a nba_db & 2 Tables in SQL (nba_salary, nba_standings).
 	- Win_Percent_19 (FLOAT)
 
 A SQL databse was used due to the relationship between (nba_team/Team) and the values in each table (total_spend/Win_Percent_18,Win_Percent_19).
+
+# Jupyter Notebook
 
 Finally,  a connection was made to the local database, checked for tables and used Pandas to load the Dataframe in the Database (nba_db).
 
