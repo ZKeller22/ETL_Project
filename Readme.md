@@ -44,6 +44,6 @@ A SQL databse was used due to the relationship between (nba_team/Team) and the v
 
 # Final Product
 
-Finally,  a connection was made to the local database, checked for tables and used Pandas to load the Dataframe in the Database (nba_db).
+A connection was made to the local database, checked for tables and used Pandas to load the Dataframe in the Database (nba_db).
 
 The tables were joined on Team and required a sql database because of the reationalship between team and values in both the nba_salary and nba_standings tables.
