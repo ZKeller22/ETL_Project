@@ -1,4 +1,5 @@
 # ETL Project Report
+
 ## Zane Keller, Ann Nguyen, Alex Dessoliers, Nandish Patel
 
 Proposed Analysis: Does NBA spend (salaries) lead to better team performance? Does spending equal more success?
@@ -29,7 +30,9 @@ Standing Data Transformation:
 
 # SQL Database
 
-Created a nba_db & 2 Tables in SQL (nba_salary, nba_standings).
+Created a SQL database (nba_db): 
+
+Created 2 Tables in SQL (nba_salary, nba_standings).
 
 ## nba_salary:
 	- nba_team (TEXT)
@@ -47,3 +50,5 @@ A SQL databse was used due to the relationship between (nba_team/Team) and the v
 A connection was made to the local database, checked for tables and used Pandas to load the Dataframe in the Database (nba_db).
 
 The tables were joined on Team and required a sql database because of the reationalship between team and values in both the nba_salary and nba_standings tables.
+
+
