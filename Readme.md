@@ -1,5 +1,5 @@
-## ETL Project Report
-# Zane Keller, Ann Nguyen, Alex Dessoliers, Nandish Patel
+# ETL Project Report
+## Zane Keller, Ann Nguyen, Alex Dessoliers, Nandish Patel
 
 Proposed Analysis: Does NBA spend (salaries) lead to better team performance? Does spending equal more success?
 
@@ -27,11 +27,11 @@ Standing Data Transformation:
 
 Created a nba_db & 2 Tables in SQL (nba_salary, nba_standings).
 
-# nba_salary:
+## nba_salary:
 	- nba_team (TEXT)
 	- total_spend (FLOAT)
 
-# nba_standings:
+## nba_standings:
 	- Team (TEXT)
 	- Win_Percent_18 (FLOAT)
 	- Win_Percent_19 (FLOAT)
